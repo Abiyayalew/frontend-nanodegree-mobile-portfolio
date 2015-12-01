@@ -18,16 +18,16 @@ It was optimised using with following methods:
 ### Framerate for pizza.html 
 It was optimised with the following methods on main.js:
 
-1. The function updatePositions() was optimised by 
+1. The function updatePositions() was optimised by: 
       * Read layout outside of the for loop.
-2. The function changePizzaSizes() was optimised by 
+2. The function changePizzaSizes() was optimised by:
       * Read layout outside of the for loop.
       * Removed querySelectorAll .
       * Reduced the number of background pizzas rendered to 100.
       * Dynamically calculated the number of moving pizzas required.
-3. The function changePizzaSizes() was optimised by 
+3. The function changePizzaSizes() was optimised by: 
       * Changed the slider value to a percent width.
-      * read layout outside of the for loop.
+      * Read layout outside of the for loop.
 
 
 
