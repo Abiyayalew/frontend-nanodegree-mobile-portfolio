@@ -10,6 +10,7 @@ It was optimised using with following methods:
 
 1. Inline the style.css 
 2. Use media print for print.css
+3. use async for analytics.js
 3. Removed Google Analytics
 4. Optimised the images using  http://optimizilla.com/
 5. Minified the HTML
