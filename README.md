@@ -13,7 +13,7 @@
 
 ## Approaches to Optimization Web Performance:
 
-Critical Rendering Path for index.html
+### Critical Rendering Path for index.html
 
 It was optimised using with following methods:
 
@@ -29,23 +29,16 @@ It was optimised using with following methods:
 It was optimised with the following methods on main.js:
 
 1. The function updatePositions() was optimised by: 
-      * Read layout outside of the for loop.
-<<<<<<< HEAD
+        * Read layout outside of the for loop.
 
 2. The function document.addEventListener () was optimised by 
-=======
-2. The function changePizzaSizes() was optimised by:
->>>>>>> 135d15cdd705ac3d36952133eea1a37ded45fb11
       * Read layout outside of the for loop.
       * Removed querySelectorAll .
       * Reduced the number of background pizzas rendered to 100.
       * Dynamically calculated the number of moving pizzas required.
-<<<<<<< HEAD
-
-3. The function changePizzaSizes() was optimised by 
-=======
+      * 
 3. The function changePizzaSizes() was optimised by: 
->>>>>>> 135d15cdd705ac3d36952133eea1a37ded45fb11
+
       * Changed the slider value to a percent width.
       * Read layout outside of the for loop.
 
