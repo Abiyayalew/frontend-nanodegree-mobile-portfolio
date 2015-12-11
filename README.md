@@ -29,9 +29,9 @@ It was optimised using with following methods:
 It was optimised with the following methods on main.js:
 
 1. The function updatePositions() was optimised by: 
-        * Read layout outside of the for loop.
+      * Read layout outside of the for loop.
 
-2. The function document.addEventListener () was optimised by 
+2. The function document.addEventListener () was optimised by: 
       * Read layout outside of the for loop.
       * Removed querySelectorAll .
       * Reduced the number of background pizzas rendered to 100.
