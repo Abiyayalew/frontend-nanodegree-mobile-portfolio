@@ -9,7 +9,7 @@
  1.	Go to Google PageSpeed Insights, input below link, then you will get the analysis of the page.
  2.	Scroll down to the protfolio page, click on the 'Yonglin's Pizzeria', you will be nagvigated to the pizza page, open the dev too to the console, you will get the rendering speed.
 
- link :  http://abiyayalew.github.io/frontend-nanodegree-mobile-portfolio/
+ link :  http://abiyayalew.github.io/mobile-portfolio/
 
 ## Approaches to Optimization Web Performance:
 
