@@ -1,10 +1,19 @@
-# Website Performance Optimization portfolio project
+# Web Optimization
 
-### To run the project :
+## Project Objective:
 
-http://abiyayalew.github.io/frontend-nanodegree-mobile-portfolio/
+ Optimize a provided website with a number of optimization- and performance-related issues so that it achieves a target PageSpeed score and runs at 60 frames per second.
 
-###  Critical Rendering Path for index.html
+## Running Instruction: 
+ 
+ 1.	Go to Google PageSpeed Insights, input below link, then you will get the analysis of the page.
+ 2.	Scroll down to the protfolio page, click on the 'Yonglin's Pizzeria', you will be nagvigated to the pizza page, open the dev too to the console, you will get the rendering speed.
+
+ link :  http://abiyayalew.github.io/frontend-nanodegree-mobile-portfolio/
+
+## Approaches to Optimization Web Performance:
+
+Critical Rendering Path for index.html
 
 It was optimised using with following methods:
 
@@ -15,15 +24,18 @@ It was optimised using with following methods:
 5. Minified the HTML
 
 ### Framerate for pizza.html 
+
 It was optimised with the following methods on main.js:
 
 1. The function updatePositions() was optimised by 
       * Read layout outside of the for loop.
-2. The function changePizzaSizes() was optimised by 
+
+2. The function document.addEventListener () was optimised by 
       * Read layout outside of the for loop.
       * Removed querySelectorAll .
       * Reduced the number of background pizzas rendered to 100.
       * Dynamically calculated the number of moving pizzas required.
+
 3. The function changePizzaSizes() was optimised by 
       * Changed the slider value to a percent width.
       * read layout outside of the for loop.
